@@ -16,12 +16,6 @@ public:
 	// Sets default values for this component's properties
 	UWeaponsClass();
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	FString WeaponName;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	const float WeaponRange = 1000.0f;
-	
-
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
